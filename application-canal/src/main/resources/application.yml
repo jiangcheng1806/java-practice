@@ -1,0 +1,48 @@
+spring:
+    application:
+        name: application-canal
+    jackson:
+        date-format: yyyy-MM-dd HH:mm:ss
+        time-zone: GMT+8
+        locale: zh
+        default-property-inclusion: non_null
+    datasource:
+        name: canal
+        url: jdbc:mysql://47.97.159.238:3306/joyfarming?useUnicode=true&characterEncoding=UTF8
+        username: root
+        password: root
+        # 使用druid数据源
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        filters: stat
+        maxActive: 20
+        initialSize: 1
+        maxWait: 60000
+        minIdle: 1
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        maxOpenPreparedStatements: 20
+canal:
+  server:
+    url: 47.97.159.238  #单机配置,local/dev/test环境使用
+    port: 9092  #单机配置,local/dev/test环境使用
+    destination: example #环境共用参数
+    username:
+    password:
+    subscribe: #需要监控库的mysql表
+#      bc_address_library,bc_contact,bc_contact_company,bc_customer,
+#      bill_entrust,bill_transport,
+#      consigner_info,fleet_info,
+#      fleet_vehicle_info,vehicle_info_temp,fleet_vehicle_mapping,
+#      bc_goods,queue_appoint_query,queue_appoint_record_log,
+#      queue_appoint_trucker,queue_appoint_vehicle,queue_warehouse_notice,
+#      queue_warehouse_notice_trucker_mapping,queue_warehouse_notice_vehicle_mapping
+      cms_articles
+    refreshSeconds: 10 #单位：秒
+    zkServers: 47.97.159.238:2181 # zookeeper HA高可用配置,forecast/prod环境使用
+    dbname: joyfarming #数据库名称

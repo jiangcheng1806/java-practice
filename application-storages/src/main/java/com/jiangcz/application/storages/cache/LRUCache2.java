@@ -1,4 +1,4 @@
-package com.jiangcz.theory.cache;
+package com.jiangcz.application.storages.cache;
 
         import java.util.LinkedHashMap;
         import java.util.Map;

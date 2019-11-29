@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>multi-applications</artifactId>
+        <artifactId>applications</artifactId>
         <groupId>com.jiangcz</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -11,5 +11,23 @@
 
     <artifactId>application-designpattern</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.jiangcz</groupId>
+            <artifactId>application-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.14</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
 
 </project>

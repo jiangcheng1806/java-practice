@@ -1,4 +1,4 @@
-package com.jiangcz.theory.message;
+package com.jiangcz.application.messages.message;
 
 /**
  * 类名称：Message<br>

@@ -1,4 +1,4 @@
-package com.jiangcz.theory.message;
+package com.jiangcz.application.messages.message;
 
 import java.util.Scanner;
 import java.util.concurrent.ArrayBlockingQueue;

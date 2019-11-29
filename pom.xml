@@ -9,25 +9,25 @@
     </parent>-->
 
     <groupId>com.jiangcz</groupId>
-    <artifactId>multi-applications</artifactId>
+    <artifactId>applications</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>application-spring</module>
         <module>application-designpattern</module>
-        <module>application-lambda</module>
-        <module>application-multithread</module>
-        <module>application-datastructure</module>
+        <module>application-concurrent</module>
+        <module>application-jdk</module>
         <module>application-algorithm</module>
         <module>application-messages</module>
         <module>application-storages</module>
-        <module>application-junit</module>
         <module>application-network</module>
-        <module>application-thirdpart</module>
-        <module>application-local-cache-manager</module>
+        <module>application-canal</module>
+        <module>application-common</module>
+        <module>application-queue</module>
+        <module>application-redis</module>
+        <module>application-zookeeper</module>
     </modules>
     <packaging>pom</packaging>
 
-    <name>multi-applications</name>
+    <name>applications</name>
     <url>http://maven.apache.org</url>
 
     <properties>
