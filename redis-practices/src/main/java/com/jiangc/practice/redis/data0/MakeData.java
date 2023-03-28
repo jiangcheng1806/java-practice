@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 类名称：com.jiangcz.application.http.data0.MakeData<br>
+ * 类名称：com.jiangc.application.http.data0.MakeData<br>
  * 类描述：<br>
  * 创建时间：2019年09月19日<br>
  *

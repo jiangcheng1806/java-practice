@@ -1,4 +1,4 @@
-package com.jiangcz.application.messages.message;
+package com.jiangc.application.messages.message;
 
 /**
  * 类名称：Message<br>

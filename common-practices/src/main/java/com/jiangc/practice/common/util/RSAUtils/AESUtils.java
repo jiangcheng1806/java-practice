@@ -81,7 +81,7 @@ public class AESUtils {
         //Android
        /* String randomKeyAZ =
                 "CflcZsMOFwzI84jPAjmMcb1X8JPII6ROGpzyvCwmfOjwgBPOW9D9MaMpAR24HkYXP+nuF5XQNQKypPSQsxDApgJCsWQA/oOnE3MJxaWjpw8OkQsevapgAnrercgAHUb3u8XDHdcLKuWYFqMVbCt7+JwA7jb+7tW7ZGZcPRbAYHs=";
-        String keyAZ = com.jiangcz.application.common.util.RSAUtils.decryptByPrivateKey(randomKeyAZ);
+        String keyAZ = com.jiangc.application.common.util.RSAUtils.decryptByPrivateKey(randomKeyAZ);
         System.out.println("AN加密key:"+keyAZ);
         String contentAZ = "IO8ZKqxaF4mYOZtIQlffJg==";
         String plainTextAZ = decryptData(keyAZ, contentAZ);

@@ -1,4 +1,4 @@
-package com.jiangcz.application.messages.activemq;
+package com.jiangc.application.messages.activemq;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 

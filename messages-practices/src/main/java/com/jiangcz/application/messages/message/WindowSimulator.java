@@ -1,4 +1,4 @@
-package com.jiangcz.application.messages.message;
+package com.jiangc.application.messages.message;
 
 import java.util.Scanner;
 import java.util.concurrent.ArrayBlockingQueue;
