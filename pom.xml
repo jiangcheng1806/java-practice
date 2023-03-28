@@ -18,7 +18,7 @@
         <module>application-algorithm</module>
         <module>application-messages</module>
         <module>storages-practices</module>
-        <module>application-network</module>
+        <module>network-practices</module>
         <module>application-canal</module>
         <module>common-practices</module>
         <module>queue-practices</module>

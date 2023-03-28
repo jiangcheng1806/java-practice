@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>application-network</artifactId>
+    <artifactId>network-practices</artifactId>
 
 
 </project>
