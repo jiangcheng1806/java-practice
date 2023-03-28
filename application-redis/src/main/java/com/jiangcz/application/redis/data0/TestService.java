@@ -1,8 +1,8 @@
 package com.jiangcz.application.redis.data0;
 
-import com.jiangcz.application.common.util.HttpClientUtil;
-import com.jiangcz.application.common.util.JacksonUtils;
-import com.jiangcz.application.common.util.StringUtils;
+import com.jiangc.practice.common.util.HttpClientUtil;
+import com.jiangc.practice.common.util.JacksonUtils;
+import com.jiangc.practice.common.util.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 import net.sf.json.JSONObject;
 

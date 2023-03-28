@@ -1,7 +1,6 @@
 package com.jiangcz.application.canal.sync;
 
 import com.alibaba.otter.canal.protocol.CanalEntry;
-import com.jiangcz.application.common.util.Spring.SpringContextUtil;
 import lombok.extern.slf4j.Slf4j;
 import net.sf.json.JSONObject;
 import org.apache.commons.collections.CollectionUtils;

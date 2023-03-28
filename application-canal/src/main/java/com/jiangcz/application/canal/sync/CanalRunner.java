@@ -1,6 +1,6 @@
 package com.jiangcz.application.canal.sync;
 
-import com.jiangcz.application.common.util.Spring.SpringContextUtil;
+import com.jiangc.practice.common.util.Spring.SpringContextUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.annotation.Order;

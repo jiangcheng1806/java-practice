@@ -3,7 +3,7 @@ package com.jiangcz.application.canal.sync;
 import com.alibaba.otter.canal.client.CanalConnector;
 import com.alibaba.otter.canal.client.CanalConnectors;
 import com.alibaba.otter.canal.protocol.Message;
-import com.jiangcz.application.common.util.Spring.SpringContextUtil;
+import com.jiangc.practice.common.util.Spring.SpringContextUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
