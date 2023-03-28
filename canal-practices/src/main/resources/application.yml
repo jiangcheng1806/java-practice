@@ -1,6 +1,6 @@
 spring:
     application:
-        name: application-canal
+        name: canal-practices
     jackson:
         date-format: yyyy-MM-dd HH:mm:ss
         time-zone: GMT+8

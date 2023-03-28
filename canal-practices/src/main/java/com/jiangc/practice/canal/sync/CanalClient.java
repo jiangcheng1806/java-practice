@@ -1,4 +1,4 @@
-package com.jiangcz.application.canal.sync;
+package com.jiangc.practice.canal.sync;
 
 import com.alibaba.otter.canal.client.CanalConnector;
 import com.alibaba.otter.canal.client.CanalConnectors;

@@ -8,8 +8,8 @@
         <version>2.1.6.RELEASE</version>
     </parent>-->
 
-    <groupId>com.jiangcz</groupId>
-    <artifactId>applications</artifactId>
+    <groupId>com.jiangc</groupId>
+    <artifactId>jiangcheng-practices</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>designpattern-practices</module>
@@ -19,7 +19,7 @@
         <module>messages-practices</module>
         <module>storages-practices</module>
         <module>network-practices</module>
-        <module>application-canal</module>
+        <module>canal-practices</module>
         <module>common-practices</module>
         <module>queue-practices</module>
         <module>redis-practices</module>
@@ -27,7 +27,7 @@
     </modules>
     <packaging>pom</packaging>
 
-    <name>applications</name>
+    <name>jiangcheng-practices</name>
     <url>http://maven.apache.org</url>
 
     <properties>

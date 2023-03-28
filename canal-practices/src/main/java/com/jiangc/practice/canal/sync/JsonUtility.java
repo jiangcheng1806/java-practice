@@ -1,4 +1,4 @@
-package com.jiangcz.application.canal.sync;
+package com.jiangc.practice.canal.sync;
 
 import com.alibaba.otter.canal.protocol.CanalEntry;
 import lombok.extern.slf4j.Slf4j;

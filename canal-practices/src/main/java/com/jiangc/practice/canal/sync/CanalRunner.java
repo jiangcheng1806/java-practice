@@ -1,4 +1,4 @@
-package com.jiangcz.application.canal.sync;
+package com.jiangc.practice.canal.sync;
 
 import com.jiangc.practice.common.util.Spring.SpringContextUtil;
 import lombok.extern.slf4j.Slf4j;
