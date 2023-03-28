@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>application-messages</artifactId>
+    <artifactId>messages-practices</artifactId>
 
     <dependencies>
         <!-- activemq 相关maven依赖 -->
