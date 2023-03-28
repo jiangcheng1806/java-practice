@@ -19,7 +19,7 @@
         <poi.version>3.9</poi.version>
     </properties>
     <groupId>com.jiangc</groupId>
-    <artifactId>practice-common</artifactId>
+    <artifactId>common-practices</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <dependencies>
         <dependency>

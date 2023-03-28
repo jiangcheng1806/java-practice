@@ -9,18 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>multithread-practices</artifactId>
+    <artifactId>zookeeper-practices</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.jiangc</groupId>
-            <artifactId>common-practices</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.4.13</version>
         </dependency>
         <dependency>
-            <groupId>com.google.code.findbugs</groupId>
-            <artifactId>annotations</artifactId>
-            <version>2.0.3</version>
+            <groupId>com.101tec</groupId>
+            <artifactId>zkclient</artifactId>
+            <version>0.2</version>
         </dependency>
     </dependencies>
 </project>

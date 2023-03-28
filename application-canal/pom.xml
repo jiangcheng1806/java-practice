@@ -231,8 +231,8 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.jiangcz</groupId>
-            <artifactId>application-common</artifactId>
+            <groupId>com.jiangc</groupId>
+            <artifactId>common-practices</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

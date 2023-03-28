@@ -13,17 +13,17 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>designpattern-practices</module>
-        <module>application-concurrent</module>
-        <module>application-jdk</module>
+        <module>multithread-practices</module>
+        <module>jdk-practices</module>
         <module>application-algorithm</module>
         <module>application-messages</module>
-        <module>application-storages</module>
+        <module>storages-practices</module>
         <module>application-network</module>
         <module>application-canal</module>
         <module>common-practices</module>
-        <module>application-queue</module>
-        <module>application-redis</module>
-        <module>application-zookeeper</module>
+        <module>queue-practices</module>
+        <module>redis-practices</module>
+        <module>zookeeper-practices</module>
     </modules>
     <packaging>pom</packaging>
 
