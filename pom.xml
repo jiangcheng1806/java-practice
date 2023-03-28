@@ -15,7 +15,7 @@
         <module>designpattern-practices</module>
         <module>multithread-practices</module>
         <module>jdk-practices</module>
-        <module>application-algorithm</module>
+        <module>algorithm-practices</module>
         <module>messages-practices</module>
         <module>storages-practices</module>
         <module>network-practices</module>
