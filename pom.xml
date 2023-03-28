@@ -12,7 +12,7 @@
     <artifactId>applications</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>application-designpattern</module>
+        <module>designpattern-practices</module>
         <module>application-concurrent</module>
         <module>application-jdk</module>
         <module>application-algorithm</module>
@@ -20,7 +20,7 @@
         <module>application-storages</module>
         <module>application-network</module>
         <module>application-canal</module>
-        <module>common-practice-cases</module>
+        <module>common-practices</module>
         <module>application-queue</module>
         <module>application-redis</module>
         <module>application-zookeeper</module>

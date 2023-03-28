@@ -13,8 +13,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.jiangcz</groupId>
-            <artifactId>application-common</artifactId>
+            <groupId>com.jiangc</groupId>
+            <artifactId>practice-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -38,20 +38,10 @@
             <version>2.1</version>
         </dependency>
         <dependency>
-            <groupId>com.jiangcz</groupId>
-            <artifactId>application-common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.8</version>
             <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.jiangcz</groupId>
-            <artifactId>application-common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
