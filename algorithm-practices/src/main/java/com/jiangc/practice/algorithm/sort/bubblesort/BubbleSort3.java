@@ -21,14 +21,13 @@ public class BubbleSort3 {
             System.out.println(arr[i]);
         }*///打印太麻烦
 
-        System.out.println("before sort:");
+        /*System.out.println("before sort:");
         Arrays.stream(arr).forEach(System.out::println);//lambada打印不费力
 
         bubbleSort02(arr);
 
         System.out.println("after sort:");
-        Arrays.stream(arr).forEach(System.out::println);//lambada打印不费力
-        /*
+        Arrays.stream(arr).forEach(System.out::println);//lambada打印不费力*/
         int[] ints = new int[10000];
 //向数组写入10000个数据 前1000倒序 ， 后9000顺序。
         for (int i = 0; i < 10000; i++) {
@@ -40,11 +39,11 @@ public class BubbleSort3 {
         System.out.println("排序后：");
 //调用3种方式，分别记录运行时间
         long startTime = System.currentTimeMillis();//获取当前时间
-        //System.out.println(Arrays.toString(bubbleSort02(ints))); // 方式  bubbleSort(ints) 没有经过优化的冒泡
+        bubbleSort03(ints);
+        System.out.println(Arrays.toString(ints)); // 方式  bubbleSort(ints) 没有经过优化的冒泡
 //bubbleSort(ints);
         long endTime = System.currentTimeMillis();//获取当前时间
         System.out.println("程序运行时间："+(endTime-startTime)+"ms");//两个时间相减 = 程序运行时间
-        */
     }
 
     /**
@@ -84,7 +83,7 @@ public class BubbleSort3 {
      * 设置排序边界，避免在已经排序的部分还要进行排序
      * @param arr
      */
-    /*public static void bubbleSort03(int[] arr){
+    public static void bubbleSort03(int[] arr){
         boolean flag = true;
         while (flag){
             flag = false;
@@ -100,7 +99,7 @@ public class BubbleSort3 {
                 i = pos;
             }
         }
-    }*/
+    }
 
     /**
      * 一开始第一次写的时候直接a跟b进行交换swap(a,b){a = temp,b = a,b = temp} 真的错误的很离谱 因为调用这两个index做参数 根本改变不了数组中的每个元素的值，最后还是写成了如下所示的
