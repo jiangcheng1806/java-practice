@@ -62,9 +62,6 @@ public class MyClassLoader extends ClassLoader {
 
             return defineClass(null, buf, 0, buf.length);//加载进内存
 
-        } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
