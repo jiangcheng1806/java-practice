@@ -24,7 +24,7 @@
         <module>queue-practices</module>
         <module>redis-practices</module>
         <module>zookeeper-practices</module>
-        <module>excel-practices</module>
+        <module>springboot-practices</module>
     </modules>
     <packaging>pom</packaging>
 
