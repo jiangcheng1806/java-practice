@@ -1,3 +1,5 @@
+import com.jiangc.strategy.annotation.AnnotationChargeStrategyFactory;
+import com.jiangc.strategy.annotation.ChargeStrategy3;
 import com.jiangc.strategy.autoregister.AutoRegisterChargeStrategyFactory;
 
 import com.jiangc.strategy.autoregister.ChargeStrategy2;
@@ -50,6 +52,22 @@ public class StrategryTest {
             chargeStrategy = AutoRegisterChargeStrategyFactory.getChargeStrategy(ChargeType.EXTERNAL);
             charge = chargeStrategy.charge(100);
             System.out.println("外部价格："+charge);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Test
+    public void test4(){
+        try {
+            ChargeStrategy3 chargeStrategy3 = AnnotationChargeStrategyFactory.getChargeStrategy(ChargeType.INTERNAL);
+            double charge = chargeStrategy3.charge(100);
+            System.out.println("内部价格："+charge);
+
+            chargeStrategy3 = AnnotationChargeStrategyFactory.getChargeStrategy(ChargeType.EXTERNAL);
+            charge = chargeStrategy3.charge(100);
+            System.out.println("外部价格："+charge);
+
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
