@@ -1,4 +1,4 @@
-package com.jiangc.strategy.base;
+package com.jiangc.strategy.base_1;
 
 import org.springframework.stereotype.Component;
 

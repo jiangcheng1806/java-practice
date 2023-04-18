@@ -1,4 +1,4 @@
-package com.jiangc.strategy.annotation;
+package com.jiangc.strategy.annotation_4;
 
 public interface ChargeStrategy3 {
 

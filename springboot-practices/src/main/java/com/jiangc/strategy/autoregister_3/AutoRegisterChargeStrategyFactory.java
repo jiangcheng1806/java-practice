@@ -1,6 +1,6 @@
-package com.jiangc.strategy.autoregister;
+package com.jiangc.strategy.autoregister_3;
 
-import com.jiangc.strategy.base.ChargeType;
+import com.jiangc.strategy.base_1.ChargeType;
 import org.reflections.Reflections;
 import org.reflections.scanners.SubTypesScanner;
 import org.reflections.util.ClasspathHelper;

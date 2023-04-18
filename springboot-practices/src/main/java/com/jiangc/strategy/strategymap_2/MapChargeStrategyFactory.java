@@ -1,9 +1,9 @@
-package com.jiangc.strategy.strategymap;
+package com.jiangc.strategy.strategymap_2;
 
-import com.jiangc.strategy.base.ChargeStrategy;
-import com.jiangc.strategy.base.ChargeType;
-import com.jiangc.strategy.base.ExternalTaxStrategry;
-import com.jiangc.strategy.base.InternalStrategry;
+import com.jiangc.strategy.base_1.ChargeStrategy;
+import com.jiangc.strategy.base_1.ChargeType;
+import com.jiangc.strategy.base_1.ExternalTaxStrategry;
+import com.jiangc.strategy.base_1.InternalStrategry;
 
 import java.util.HashMap;
 import java.util.Map;

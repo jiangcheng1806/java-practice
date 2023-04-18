@@ -1,4 +1,4 @@
-package com.jiangc.strategy.autoregister;
+package com.jiangc.strategy.autoregister_3;
 
 public interface ChargeStrategy2 {
 
