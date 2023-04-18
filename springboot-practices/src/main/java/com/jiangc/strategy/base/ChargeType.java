@@ -1,4 +1,4 @@
-package com.jiangc.strategy;
+package com.jiangc.strategy.base;
 
 public enum ChargeType {
     INTERNAL,EXTERNAL

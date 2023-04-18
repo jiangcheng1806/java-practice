@@ -1,9 +1,10 @@
-import com.jiangc.autoregister.AutoRegisterChargeStrategyFactory;
-import com.jiangc.autoregister.ChargeStrategy2;
-import com.jiangc.strategy.ChargeStrategryFactory;
-import com.jiangc.strategy.ChargeStrategy;
-import com.jiangc.strategy.ChargeType;
-import com.jiangc.strategymap.MapChargeStrategyFactory;
+import com.jiangc.strategy.autoregister.AutoRegisterChargeStrategyFactory;
+
+import com.jiangc.strategy.autoregister.ChargeStrategy2;
+import com.jiangc.strategy.base.ChargeStrategryFactory;
+import com.jiangc.strategy.base.ChargeStrategy;
+import com.jiangc.strategy.base.ChargeType;
+import com.jiangc.strategy.strategymap.MapChargeStrategyFactory;
 import org.junit.Test;
 
 public class StrategryTest {

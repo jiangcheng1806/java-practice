@@ -1,6 +1,6 @@
-package com.jiangc.autoregister;
+package com.jiangc.strategy.autoregister;
 
-import com.jiangc.strategy.ChargeType;
+import com.jiangc.strategy.base.ChargeType;
 
 public class ExternalTaxStrategy2 implements ChargeStrategy2 {
     @Override
