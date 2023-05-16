@@ -11,6 +11,11 @@
 
     <artifactId>application-datastructure</artifactId>
 
+    <properties>
+        <fastjson.version>1.2.46</fastjson.version>
+        <alibaba.fastjson.version>1.2.66</alibaba.fastjson.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.jiangc</groupId>
@@ -62,6 +67,11 @@
             <version>0.9</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${alibaba.fastjson.version}</version>
+        </dependency>
     </dependencies>
 
 </project>
