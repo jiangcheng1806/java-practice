@@ -19,8 +19,8 @@ public class DubboReader {
 //        String file03 = "data-supply-native-datacenter-registry.properties";
 //        String file04 = "data-supply-native-provider-registry.properties";
 //        String file05 = "data-supply-statisc-provider-registry.properties";
-        String file06 = "web_work.properites";
-
+//        String file06 = "web_work.properites";
+        String file06 = "data-supply-web-consumer.cache.txt";
 
 
         InputStream is = DubboReader.class.getClassLoader().getResourceAsStream(file06);
@@ -93,14 +93,22 @@ public class DubboReader {
 
         List<Pair<String, String>> pairs2 = pairs1.stream().distinct().collect(Collectors.toList());
 
+
+        List<String> lsApis = new ArrayList<>();
         pairs2.forEach(pair0 ->{
             String s1 = pair0.getLeft().replace("\\","");
             String s2 = pair0.getRight();
 
             System.out.println(s1+","+s2);
-
+            lsApis.add(s2);
         });
 
+        List<String> lsApis1 = lsApis.stream().distinct().collect(Collectors.toList());
+
+        System.out.println("=============================================\n");
+
+        System.out.println("lapis=>"+JSON.toJSONString(lsApis1));
+        lsApis1.forEach(System.out::println);
 
     }
 

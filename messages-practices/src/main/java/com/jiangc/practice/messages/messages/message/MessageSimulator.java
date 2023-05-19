@@ -1,4 +1,4 @@
-package com.jiangc.application.messages.message;
+package com.jiangc.practice.messages.messages.message;
 
 import java.util.concurrent.ArrayBlockingQueue;
 
@@ -16,7 +16,7 @@ public class MessageSimulator {
     public static ArrayBlockingQueue<Message> messageQueue = new ArrayBlockingQueue<>(100);
 
     public static void main(String[] args) {
-        com.jiangc.application.messages.message.WindowSimulator generator = new com.jiangc.application.messages.message.WindowSimulator(messageQueue);
+        WindowSimulator generator = new WindowSimulator(messageQueue);
 
         //产生消息
         generator.GenerateMsg();

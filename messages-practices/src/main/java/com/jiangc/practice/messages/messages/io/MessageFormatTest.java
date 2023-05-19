@@ -1,4 +1,4 @@
-package com.jiangc.application.messages.io;
+package com.jiangc.practice.messages.messages.io;
 
 import java.text.MessageFormat;
 import java.util.Date;

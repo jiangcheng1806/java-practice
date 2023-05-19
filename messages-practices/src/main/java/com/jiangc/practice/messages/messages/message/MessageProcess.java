@@ -1,4 +1,4 @@
-package com.jiangc.application.messages.message;
+package com.jiangc.practice.messages.messages.message;
 
 /**
  * 类名称：MessageProcess<br>
