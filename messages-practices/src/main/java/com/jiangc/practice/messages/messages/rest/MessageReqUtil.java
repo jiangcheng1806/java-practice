@@ -59,20 +59,8 @@ public class MessageReqUtil {
     private static BaseResponse pushContentToHLH(MotSourceEnum motSourceEnum, String pushContent, String identification) {
         BaseResponse pushResp = null;
         try {
-            //body信息
-            Map<String, String> bodyMap = new HashMap<>();
-            bodyMap.put("identification", identification);
-            bodyMap.put("json", pushContent);
-            bodyMap.put("motSource", motSourceEnum.getType().toString());
-
-
-            System.out.println("dody参数=>"+JSON.toJSONString(bodyMap));
 
             String dateStr = String.valueOf(LocalDateTime.now().toInstant(ZoneOffset.of("+8")).toEpochMilli());
-//            String sign = getSign(dateStr);
-
-
-
 
             Map<String, String> map = Maps.newHashMapWithExpectedSize(3);
             //timestamp为毫秒数的字符串形式
@@ -91,8 +79,7 @@ public class MessageReqUtil {
                     .collect(Collectors.joining()).trim()
                     .concat(salt);
             String signMd5 = DigestUtils.md5DigestAsHex(sign.getBytes()).toUpperCase();
-
-
+//            String sign = getSign(dateStr);
 
             Map<String, String> headerMap = new HashMap<>();
             headerMap.put("sign", signMd5);
@@ -102,6 +89,15 @@ public class MessageReqUtil {
             headerMap.put("path", map.get("path"));
 
             System.out.println("header参数=>"+JSON.toJSONString(headerMap));
+
+
+            //body信息
+            Map<String, String> bodyMap = new HashMap<>();
+            bodyMap.put("identification", identification);
+            bodyMap.put("json", pushContent);
+            bodyMap.put("motSource", motSourceEnum.getType().toString());
+
+            System.out.println("dody参数=>"+JSON.toJSONString(bodyMap));
 
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("data",RSAUtils.encryptSegmentByPublicKey(JSON.toJSONString(bodyMap),remote_rsa_key));
