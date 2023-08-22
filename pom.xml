@@ -8,7 +8,6 @@
         <version>2.1.6.RELEASE</version>
     </parent>-->
 
-<<<<<<< HEAD
     <groupId>com.jiangc</groupId>
     <artifactId>jiangcheng-practices</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -26,26 +25,6 @@
         <module>redis-practices</module>
         <module>zookeeper-practices</module>
         <module>springboot-practices</module>
-=======
-    <groupId>com.jiangcz</groupId>
-    <artifactId>applications-demos</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <modules>
-        <module>application-designpattern</module>
-        <module>application-concurrent</module>
-        <module>application-jdk</module>
-        <module>application-algorithm</module>
-        <module>application-messages</module>
-        <module>application-storages</module>
-        <module>application-network</module>
-        <module>application-canal</module>
-        <module>application-common</module>
-        <module>application-queue</module>
-        <module>application-redis</module>
-        <module>application-zookeeper</module>
-        <module>application-nacos</module>
-        <module>application-elk</module>
->>>>>>> adc6b5b733e418e2a2143a68eda74f9d9a3ab232
     </modules>
     <packaging>pom</packaging>
 
