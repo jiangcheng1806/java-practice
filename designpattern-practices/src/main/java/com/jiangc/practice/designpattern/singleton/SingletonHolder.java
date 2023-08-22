@@ -13,8 +13,11 @@ public class SingletonHolder {
 	private SingletonHolder(){
 		
 	}
-	
+
+
 	//私有化静态类,在这个静态持有类里使用饿汉式
+	//优点 jvm 内部机制保证当一个类被加载的时候 这个类的加载过程是线程互斥的 getInstance方法 保持只实例化一次
+	//缺点 如果构造函数中抛出异常 这个实例将永远得不到新建
 	private static class SingletonFactory{
 		private static final SingletonHolder instance = new SingletonHolder();
 		private SingletonFactory(){

@@ -3,13 +3,22 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
+<<<<<<< HEAD:multithread-practices/pom.xml
         <artifactId>jiangcheng-practices</artifactId>
         <groupId>com.jiangc</groupId>
+=======
+        <artifactId>applications-demos</artifactId>
+        <groupId>com.jiangcz</groupId>
+>>>>>>> adc6b5b733e418e2a2143a68eda74f9d9a3ab232:application-concurrent/pom.xml
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD:multithread-practices/pom.xml
     <artifactId>multithread-practices</artifactId>
+=======
+    <artifactId>application-concurrent</artifactId>
+>>>>>>> adc6b5b733e418e2a2143a68eda74f9d9a3ab232:application-concurrent/pom.xml
 
     <dependencies>
         <dependency>
@@ -18,9 +27,15 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
+<<<<<<< HEAD:multithread-practices/pom.xml
             <groupId>com.google.code.findbugs</groupId>
             <artifactId>annotations</artifactId>
             <version>2.0.3</version>
+=======
+            <groupId>com.io7m.jcip</groupId>
+            <artifactId>jcip-annotations</artifactId>
+            <version>1.0.2</version>
+>>>>>>> adc6b5b733e418e2a2143a68eda74f9d9a3ab232:application-concurrent/pom.xml
         </dependency>
     </dependencies>
 </project>

@@ -5,9 +5,6 @@
  * @author mk<br>
  * Date:2018-10-31 9:09 <br>
  */
-
-package com.suns.zookeeper;
-
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.data.Stat;
 
@@ -26,8 +23,7 @@ import java.util.concurrent.CountDownLatch;
  */
 public class ZookeeperNative {
 
-    //public static final String connect = "127.0.0.1:2181";
-    public static final String connect = "49.234.227.194:2181";
+    public static final String connect = "127.0.0.1:2181";
     private static ZooKeeper zookeeper = null;
     private static CountDownLatch cdl = new CountDownLatch(0);
     private static String nodePath = "/native1";

@@ -1,4 +1,8 @@
+<<<<<<< HEAD:algorithm-practices/src/main/java/com/jiangc/practice/algorithm/bitwise/NonOperation.java
 package com.jiangc.practice.algorithm.bitwise;
+=======
+package com.jiangcz.application.algorithm.bitwise;
+>>>>>>> adc6b5b733e418e2a2143a68eda74f9d9a3ab232:application-algorithm/src/main/java/com/jiangcz/application/algorithm/bitwise/NonOperation.java
 
 /**
  * 类名称：NonOperation<br>

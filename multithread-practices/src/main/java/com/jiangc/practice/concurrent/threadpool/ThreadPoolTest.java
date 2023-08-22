@@ -1,4 +1,8 @@
+<<<<<<< HEAD:multithread-practices/src/main/java/com/jiangc/practice/concurrent/threadpool/ThreadPoolTest.java
 package com.jiangc.practice.concurrent.threadpool;
+=======
+package com.jiangcz.application.concurrent.threadpool;
+>>>>>>> adc6b5b733e418e2a2143a68eda74f9d9a3ab232:application-concurrent/src/main/java/com/jiangcz/application/concurrent/threadpool/ThreadPoolTest.java
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
