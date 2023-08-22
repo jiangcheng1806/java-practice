@@ -9,7 +9,7 @@
     </parent>-->
 
     <groupId>com.jiangc</groupId>
-    <artifactId>jiangcheng-practices</artifactId>
+    <artifactId>jiangcheng-archived-practices</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>designpattern-practices</module>
